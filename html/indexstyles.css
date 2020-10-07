@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+  }
+
+   
+.header {
+  
+    margin:0;
+}
+
+.topnav {
+    display: flex;
+    background-color:rgb(3, 20, 37);
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align:right;
+  }
+  
+  .topnav a:hover {
+    background-color:#030f36;
+    color: black;
+  }
+
+body {
+    background-color:black;
+    font-family: Trebuchet MS;
+  }
+
+  .flex-container {
+    color:rgb(121, 126, 133);
+    margin:25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: left;
+    
+  }
+  
+  .flex-item-left {
+    background-color: #011e3a;
+    padding: 20px;
+    flex: 60%;
+  }
+  
+  .flex-item-right {
+   padding:10px;
+    flex: 40%;
+  }
+
+
+
+  .flex-container2 {
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 17px;
+    text-align: left;
+    color:rgb(192, 188, 188);
+  }
+  
+  .flex-item-left2 {
+    background-color: rgb(1, 15, 29);
+    padding: 30px;
+    flex: 40%;
+  }
+  
+  .flex-item-right2 {
+    
+    padding: 30px;
+    flex: 25%;
+  }
+
+  .flex-item-righter2 {
+    background-color: rgb(1, 15, 29);
+    padding: 30px;
+    flex: 35%;
+  }
+  
+  .another{
+    display: flex;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    margin:20px;
+  }
+
+
+
+  .flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: left;
+    margin:5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color:black;
+
+  }
+  
+  .flex-item-left3 {
+    
+    padding: 10px;
+    flex: 40%;
+  }
+  
+  .flex-item-right3 {
+    
+    padding: 10px;
+    flex: 30%;
+  }
+
+  .flex-item-righter3 {
+
+    padding: 10px;
+    flex: 30%;
+  }
+  .flexitem {
+    
+    padding: 10px;
+    flex: 30%;
+
+  }
+  .flexitem2 {
+
+    padding: 10px;
+    flex: 30%;
+
+  }
+  .flexitem3 {
+   
+    padding: 10px;
+    flex: 40%;
+
+  }
+
+  .footer {
+    background-color:rgb(3, 20, 37);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 10px;
+    padding:2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+ 
+  @media only screen and (max-width: 768px) {
+    .flex-item-right, .flex-item-left, .flex-item-righter, .flex-item-right2, .flex-item-left2, .flex-item-righter2, .flex-item-left3,
+    .flex-item-right3, .flex-item-righter3, .flexitem,.flexitem2, .flexitem3{
+      flex: 100%;
+    }
+
+  }
+
+  @media only screen and (min-width:769px) and (max-width:992px) {
+    
+  .flex-item-left2, .flex-item-right2, .flex-item-left3, .flex-item-right3, .flexitem, .flexitem2 {
+flex:50%;
+  }
+}
